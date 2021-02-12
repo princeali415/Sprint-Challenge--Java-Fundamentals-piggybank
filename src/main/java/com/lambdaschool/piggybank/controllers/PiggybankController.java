@@ -14,9 +14,10 @@ import java.util.List;
 @RestController
 public class PiggybankController
 {
+
     @Autowired
     PiggybankRepository piggybankRepository;
-
+    
     // http://localhost:2019/total
     @GetMapping(value = "/total", produces = "application/json")
     public ResponseEntity<?> calculateTotal()
