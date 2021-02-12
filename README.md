@@ -28,7 +28,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 2. Explain how you connected your solution to a database, including what code was necessary for this task.
 
-    **I connected the SQL data by adding the keyword @Table(name='coin')**
+    **I connected the SQL data by adding the keyword @Table(name = 'coin')**
 
 3. Explain the advantages of the project structure (packages) you used.
 

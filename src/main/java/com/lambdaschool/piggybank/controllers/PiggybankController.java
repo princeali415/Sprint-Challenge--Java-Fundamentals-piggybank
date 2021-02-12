@@ -15,10 +15,11 @@ import java.util.List;
 public class PiggybankController
 {
 
-    @Autowired
+    @Autowired 
     PiggybankRepository piggybankRepository;
 
     // http://localhost:2019/total
+    
     @GetMapping(value = "/total", produces = "application/json")
     public ResponseEntity<?> calculateTotal()
     {
