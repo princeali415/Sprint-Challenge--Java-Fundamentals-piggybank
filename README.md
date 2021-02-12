@@ -23,9 +23,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. 
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+    **By creating a piggybank class (_Abstraction_) I was able to use it as a model to create actions based on diffent feilds that describe the coins available in the piggybank.** 
+
 2. Explain how you connected your solution to a database, including what code was necessary for this task.
+
+    **I connected the SQL data by adding the keyword @Table(name='coin')**
+
 3. Explain the advantages of the project structure (packages) you used.
+
+  **I used Spring Boot framework to create as basic Rest web API, within the framework of spring boot I also used spring data jpa. I also used h2 database to act as a lightweihgt database instead of PostgreSQL because it is better when in the development stage. I used maven as the POM(project object management tool) which siomplified the build process. And tomcat for the development web server**
+
 4. Explain the differences between Abstract Classes and Interfaces, including how they are used in your application?
+
+    **The main purpose of interfaces is to provide uniformity of behaviors among a group of classes. We used the Piggybank respository interface to extend behaviors of Crud Repository class.**
+    
+    **If we have a group of classes that share similar methods and / or fields, using abstract classes would make sense. The idea of abstract classes is that our group of classes could inherit from our abstract class, our parent class, all those standard methods or fields. That way, the group of classes could worry about just implementing what is different in each class. We didnt have to do that with this paplication beacause with the spring framework we use interfaces more than abstraction, however if i was to use it i would create an abstract coin class that would be the parent class to the sub classes of all the diffrent coins.**
 
 ## Instructions
 
